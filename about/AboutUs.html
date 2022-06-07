@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+      , initial-scale=1.0">
+    <title>Document</title>
+  
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,700;1,300&display=swap"
+      rel="stylesheet">
+  
+    <!-- Fontawsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <!-- AOS Link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  
+  
+    <!-- Ionicons Link -->
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+  
+    <!-- Css Link -->
+    <link rel="stylesheet" href="../css/main.css">
+  </head>
+  <body>
+    <main>
+    <header>
+
+      <div class="alert  p-0 py-2" role="alert">
+        <div class="container ">
+          <div class="row ">
+            <div class="col-md-12 d-flex justify-content-between align-items-center">
+              <div class="header_lang w-25">
+                <select name="language" class="form-select ">
+                  <option value="English" selected>English</option>
+                  <option value="English-Australia">English - Australia</option>
+                  <option value="Francias-Canada">Francias - Canada</option>
+                </select>
+                <ion-icon class="ionicon" name="globe"></ion-icon>
+              </div>
+
+              <!-- <h6 class="text">
+                <ion-icon class="ionicon" name="globe"></ion-icon>LANGUAGE
+              </h6> -->
+              <div class="info">
+                <p class="m-0 d-flex align-items-center">
+                  <a href="tel:+1 (855) 858-5214">
+                    <ion-icon name="call" class="me-2"></ion-icon> +1 (855) 858-5214
+                  </a>
+                </p>
+                <p class="m-0 d-flex align-items-center">
+                  <a href="mailto:abc@gmail.com">
+                    <ion-icon name="mail" class="me-3"></ion-icon>abc@gmail.com
+                  </a>
+                </p>
+
+              </div>
+
+              <div class="">
+                <button type="button" class="btn btn-secondary rounded-circle">
+                  <ion-icon name="person" class=""></ion-icon>
+                </button>
+                <button type="button" class="btn btn-primary  rounded-circle">
+                  <ion-icon name="git-pull-request"></ion-icon>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img class="" src="../webImages/logo.webp" alt="" /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex justify-content-between align-items-center w-100">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
+                <span class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    PRODUCT
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="d-flex">
+                      <div>
+                        <!-- <span><a class="dropdown-item text-origin" href="#">Products</a></span> -->
+                        <span>
+                          <p class="dropdown-item text-origin">Products</p>
+                        </span>
+                        <span><a class="dropdown-item" href="#">Alaya Care Cloud</a></span>
+                        <span><a class="dropdown-item" href="#">Alaya Care Connector</a></span>
+                        <span><a class="dropdown-item" href="#">Alaya Care Marketplace</a></span>
+                        <span><a class="dropdown-item" href="#">Procura Powered by AlayaCare</a></span>
+                        <span><a class="dropdown-item" href="#">Arrow powered by AlayaCare</a></span>
+                        <span><a class="dropdown-item" href="#">CIMS Powered by AlayaCare</a></span>
+                        <span><a class="dropdown-item" href="#">Arrow powered by AlayaCare</a></span>
+                        <span><a class="dropdown-item" href="#">Pricing</a></span>
+                        <span><a class="dropdown-item" href="#">Request a Demo</a></span>
+                      </div>
+                      <div>
+                        <span><a class="dropdown-item text-origin" href="#">Alaya Care Cloud</a></span>
+                        <span><a class="dropdown-item" href="#">Back Office Suite</a></span>
+                        <span><a class="dropdown-item" href="#">Clinical Suite</a></span>
+                        <span><a class="dropdown-item" href="#">Care Worker Mobile App</a></span>
+                        <span><a class="dropdown-item" href="#">Virtual Care Suite</a></span>
+                        <span><a class="dropdown-item" href="#">AlayaSphere</a></span>
+                        <span><a class="dropdown-item" href="#">Alaya Labs</a></span>
+                        <span><a class="dropdown-item" href="#">Electronic Visit Verification</a></span>
+                        <span><a class="dropdown-item" href="#">Security Resources</a></span>
+                      </div>
+                    </div>
+                  </div>
+                </span>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    SOLUTION
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="d-flex">
+                      <div>
+                        <span><a class="dropdown-item text-origin" href="#">By Service Line</a></span>
+                        <span><a class="dropdown-item" href="#">Personal Care</a></span>
+                        <span><a class="dropdown-item" href="#">Nursing</a></span>
+                        <span><a class="dropdown-item" href="#">Home and Specialty Infusion</a></span>
+                        <span><a class="dropdown-item" href="#">Pediatrics</a></span>
+                      </div>
+                      <div>
+                        <span><a class="dropdown-item text-origin" href="#">By Business Type</a></span>
+                        <span><a class="dropdown-item" href="#">Franchise</a></span>
+                        <span><a class="dropdown-item" href="#">Private Duty</a></span>
+                        <span><a class="dropdown-item" href="#">Medicaid</a></span>
+                        <span><a class="dropdown-item" href="#">OHT</a></span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    SUPPORT AND SERVICES
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="d-flex">
+                      <div>
+                        <span><a class="dropdown-item text-origin" href="#">Services</a></span>
+                        <span><a class="dropdown-item" href="#">Customer Success</a></span>
+                        <span><a class="dropdown-item" href="#">Services Catalog</a></span>
+                      </div>
+                      <div>
+                        <span><a class="dropdown-item text-origin" href="#">Support Resources</a></span>
+                        <span><a class="dropdown-item" href="#">Alaya Care Support Articles</a></span>
+                        <span><a class="dropdown-item" href="#">Contact Support</a></span>
+                        <span><a class="dropdown-item" href="#">AlayaCare Ideas</a></span>
+                        <span><a class="dropdown-item" href="#">Product Updates</a></span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    ABOUT US
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="d-flex">
+                      <div>
+                        <span><a class="dropdown-item text-origin" href="#">Resource Centre</a></span>
+                        <span><a class="dropdown-item" href="#">Blogs</a></span>
+                        <span><a class="dropdown-item" href="#">Videos</a></span>
+                        <span><a class="dropdown-item" href="#">Podcast</a></span>
+                        <span><a class="dropdown-item" href="#">Case Studies</a></span>
+                      </div>
+                      <div>
+                        <span><a class="dropdown-item text-origin" href="#">Events</a></span>
+                        <span><a class="dropdown-item" href="#">Webinars</a></span>
+                        <span><a class="dropdown-item" href="#">Upcoming Events</a></span>
+                        <span><a class="dropdown-item" href="#">Better Outcomes Conference</a></span>
+                        <span><a class="dropdown-item" href="#">Customer Advisory Board</a></span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    RESOURCES
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="d-flex">
+                      <div>
+                        <span><a class="dropdown-item text-origin" href="#">Overview</a></span>
+                        <span><a class="dropdown-item" href="#">About AlayaCare</a></span>
+                        <span><a class="dropdown-item" href="#">Our Teams</a></span>
+                        <span><a class="dropdown-item" href="#">Investors</a></span>
+                        <span><a class="dropdown-item" href="#">Careers & Cultures</a></span>
+                      </div>
+                      <div>
+                        <span><a class="dropdown-item text-origin" href="#">News</a></span>
+                        <span><a class="dropdown-item" href="#">In the Media</a></span>
+                        <span><a class="dropdown-item" href="#">AlayaCare News</a></span>
+                        <span><a class="dropdown-item" href="#">Industry News</a></span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Contact Us</a>
+                </li>
+              </ul>
+              <a href="" class="m-0 serach_anc"><ion-icon name="search" class="fs-3 ionicon"></ion-icon></a>
+              <!-- <form class="d-flex" role="search">
+                <input class="form-control me-2 d-none" type="search" placeholder="Search" aria-label="Search" />
+                <button class="btn" type="submit"><ion-icon name="search"></ion-icon></button>
+              </form> -->
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="div-about" >
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../webImages/11.webp" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+  <div class="div-br">
+    <h1 class="h1-line">Bringing home health into the future</h1>
+    <p class = "div-text">AlayaCare is a provider of revolutionary cloud-based home health care software. With an end-to-end solution spanning clinical documentation, back-office functionality, client and family portals, and mobile care worker functionality, we offer a platform for agencies to propel towards innovation and home care of the future. We are driven to enable the care we want our loved ones to receive in the place they call home.</p>
+  </div>
+</div>
+<div class="container pb-dc">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="ca">
+          <div class="card-bo">
+            <h1 class="card-ti">Our Mission</h1>
+            <img src="../webImages/14.webp" class="card-te"></img>
+            <p class = "p-div">To empower care providers to achieve better health outcomes by delivering transformative technology and data insights to focus on what really matters.
+            </p>
+          </div>
+        </div>
+      </div>  
+      <div class="col-md-12">
+        <div class="ca">
+          <div class="card-bo">
+            <h1 class="card-ti">Our Vision</h1>
+            <img src="../webImages/15.webp" class="card-te"></img>
+            <p class = "p-div">The future of community care is connected and part of a continuum, delivered through traditional and emerging modes of care. AlayaCare makes that personalized and predictive.
+            </p>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+  <div class="div-slider bg">
+      <div class="txt">
+        <h1>Our team</h1>
+        <p class="container line">We love our people. Every single member of our close-knit team is committed to building the best product possible to change the home health care industry. To achieve this ambitious goal, we believe hard work and a great attitude leads to great results, and better outcomes for our clients.</p>
+        <button class="btn-pic">WORK AT ALAYACARE</button>
+  </div>
+</div>
+  <div class="container div-bar">
+  <div class="div-br">
+    <h1 class="h1-line">AlayaCare in the media</h1>
+  </div>
+</div>
+<div class="container">
+   <div class="row">
+    <div class="col-4">
+      <div class="ca">
+        <img src="../webImages/card/5.webp" class="card-img-top" alt="...">
+        <div class="card-bod text-center">
+          <h5 class="card-tit">Canadian Healthcare Technology</h5>
+          <p class="card-tex">SE Health, AlayaCare test home care platform</p>
+          <button class="btn-last">READ ARTICLE</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="ca">
+        <img src="../webImages/card/9.webp" class="card-img-top" alt="...">
+        <div class="card-bod text-center">
+          <h5 class="card-tit">BetaKit</h5>
+          <p class="card-tex">ALAYACARE AMONG PROJECTS RECEIVING $3.4 MILLION FROM SCALE AI</p>
+          <button class="btn-last">READ ARTICLE</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="ca">
+        <img src="../webImages/card/8.webp" class="card-img-top" alt="...">
+        <div class="card-bod text-center">
+          <h5 class="card-tit">IT Business</h5>
+          <p class="card-tex">COVID pressures forcing healthcare to double down on remote care</p>
+          <button class="btn-last">READ ARTICLE</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="ca">
+        <img src="../webImages/card/6.webp" class="card-img-top" alt="...">
+        <div class="card-bod text-center">
+          <h5 class="card-tit">Home Health Care News</h5>
+          <p class="card-tex">How Telehealth Tools Are Keeping Care Providers and Patients Safe During COVID-19</p>
+          <button class="btn-last">READ ARTICLE</button>
+        </div>
+      </div>
+  </div>
+  <div class="col-4">
+    <div class="ca">
+      <img src="../webImages/card/4.webp" class="card-img-top" alt="...">
+      <div class="card-bod text-center">
+        <h5 class="card-tit">Business Examiner</h5>
+        <p class="card-tex">How Telehealth Tools Are Keeping Care Providers and Patients Safe During COVID-19</p>
+        <button class="btn-last">READ ARTICLE</button>
+      </div>
+    </div>
+</div>
+<div class="col-4">
+  <div class="ca text-center">
+    <img src="../webImages/card/7.webp" class="card-img-top" alt="...">
+    <div class="card-bod ">
+      <h5 class="card-tit">Home Health Care News</h5>
+      <p class="card-tex">How Telehealth Tools Are Keeping Care Providers and Patients Safe During COVID-19</p>
+      <button class="btn-last">READ ARTICLE</button>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+  <section class="expert py-5">
+        <div class="row">
+            <div class="col-md-8 text-center">
+                <h2 class="mb-4">Speak to an Expert</h2>
+                <p  class="my-4">See how our powerful home health care solution can help you increase your bottom line and
+                    improve client outcomes. </p>
+
+                <div class="expert_btn">
+                    <a href="" class="btn px-4">Request a demo</a>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <h2 class="mb-4">Not Ready to Chat?</h2>
+                <div class="expert_btn_transparent ">
+                    <a href="" class="btn px-5 my-2">WATCH VIDEOS</a>
+                    <a href="" class="btn px-4 my-2">VIEW CLIENT STORIES</a>
+                    <a href="" class="btn px-5 my-2">WHO WE HELP</a>
+                </div>
+                <!-- <a class="btn expert_btn_transparent">WATCH VIDEOS</a>
+                <a class="btn expert_btn_transparent">VIEW CLIENT STORIES</a>
+                <a class="expert_btn_transparent">WHO WE HELP</a> -->
+            </div>
+        </div>
+</section>
+  <footer class="footer pt-5">
+    <div class="footer_top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer_logo">
+                        <img src="./webImages/logo.webp" alt="">
+                    </div>
+                    <div class="footer_txt">
+                        <p class="mt-1">AlayaCare’s unique platform offers a complete solution to manage the
+                            entire client
+                            lifecycle in a secure, integrated cloud-based system. AlayaCare is providing the
+                            platform for home and community care organizations to propel towards innovation and
+                            home
+                            care of the future. AlayaCare was founded in 2014.</p>
+                    </div>
+
+                    <div class="imgg">
+                        <img src="./webImages/5.webp" alt="">
+                    </div>
+                    <div class="imgg">
+                        <img src="./webImages/6.webp" alt="">
+                    </div>
+                    <div class="imgg">
+
+                        <img src="./webImages/7.webp" alt="">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <h4>ABOUT US</h4>
+                    <ul class="list">
+                        <li class="list-item"><a href="">About AlayaCare</a></li>
+                        <li class="list-item"><a href="">Our Team</a></li>
+                        <li class="list-item"><a href="">AlayaCare News</a></li>
+                        <li class="list-item"><a href="">Investors</a></li>
+                        <li class="list-item"><a href="">Careers</a></li>
+
+                        <h4>COMMUNITY</h4>
+                        <ul class="list">
+                            <li class="list-item"><a href="">Customer Stories</a></li>
+                            <li class="list-item"><a href="">Industry News</a></li>
+                            <li class="list-item"><a href="">AlayaCare News</a></li>
+                            <li class="list-item"><a href="">Gallery</a></li>
+                            <li class="list-item"><a href="">AlayaCare Support</a></li>
+
+                        </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>HOW WE HELP</h4>
+                    <ul class="list">
+                        <li class="list-item"><a href="">The AlayaCare Platform</a></li>
+                        <li class="list-item"><a href="">Clinical Documentation</a></li>
+                        <li class="list-item"><a href="">Mobile App</a></li>
+                        <li class="list-item"><a href="">Back Office Suite</a></li>
+                        <li class="list-item"><a href="">Family Portal</a></li>
+                        <li class="list-item"><a href="">AlayaLabs</a></li>
+                        <li class="list-item"><a href="">Pediatric EMR Software</a></li>
+                        <li class="list-item"><a href="">Billing Software for Medicaid</a></li>
+                        <li class="list-item"><a href="">Personal Care Software</a></li>
+                        <li class="list-item"><a href="">Private Duty Software</a></li>
+                        <li class="list-item"><a href="">Home Infusion Software</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="col-md-3">
+                    <h4>ALAYACARE TORONTO OFFICE</h4>
+                    <p>151 Yonge Street, Suite 1000
+                        Toronto, ON, Canada M5C 2W7</p>
+
+                    <h4>ALAYACARE AUSTRALIA OFFICE</h4>
+                    <p>26 Alfred St.
+                        Milson’s Point, NSW Australia 2061</p>
+
+                    <h4>ALAYACARE MONTREAL OFFICE</h4>
+
+                    <p>800-4200 Boulevard Saint-Laurent
+                        Montreal, QC, Canada H2W 2R2</p>
+
+
+                    <div class="suport">
+                        <div class="btnn">
+                            <a href="" class="btn   suport-secondary">See all locations</a>
+                            <a href="" class="btn mt-4 suport-primary">Support</a>
+                        </div>
+                        <div class="icons mt-3">
+                            <ul class="list d-flex">
+                                <li class="list-items mx-1"><a href=""><i
+                                            class="fa-brands fa-facebook-f"></i></a></li>
+                                <li class="list-items mx-1"><a href=""><i class="fa-brands fa-twitter"></i></a>
+                                </li>
+                                <li class="list-items mx-1"><a href=""><i
+                                            class="fa-brands fa-instagram"></i></a></li>
+                                <li class="list-items mx-1"><a href=""><i
+                                            class="fa-brands fa-linkedin-in"></i></a></li>
+                                <li class="list-items mx-1"><a href=""><i class="fa-brands fa-youtube"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer_bottom py-3">
+        <div class="container">
+            <div class="row">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p class="text-light fs-5">Better Technology, Better Outcomes.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p class="text-light">© 2022 AlayaCare. All Rights Reserved | <a href="" class="text-light">Legal & Contracts</a> | <a
+                                href="" class="text-light">Security & Privacy</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</main>
+  </body> 
+    <!-- Bootstrap Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Typer Link -->
+    <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+
+    <!-- AOS Link -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 120,
+            delay: 0,
+            duration: 400,
+        });
+    </script>
+    
+<!-- Ionicons Link -->
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+    <!-- Css Link -->
+    <script src="../js/main.js"></script>
+</html>

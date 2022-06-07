@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=
+          , initial-scale=1.0">
+        <title>Document</title>
+      
+        <!-- Bootstrap Link -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      
+        <!-- Google Fonts  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,700;1,300&display=swap"
+          rel="stylesheet">
+      
+        <!-- Fontawsome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+          integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+      
+        <!-- AOS Link -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      
+      
+        <!-- Ionicons Link -->
+        <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+      
+        <!-- Css Link -->
+        <link rel="stylesheet" href="../css/main.css">
+      </head>
+
+<body>
+
+
+    <main class="inner_page">
+        <header>
+
+            <div class="alert  p-0 py-2" role="alert">
+              <div class="container ">
+                <div class="row ">
+                  <div class="col-md-12 d-flex justify-content-between align-items-center">
+                    <div class="header_lang w-25">
+                      <select name="language" class="form-select ">
+                        <option value="English" selected>English</option>
+                        <option value="English-Australia">English - Australia</option>
+                        <option value="Francias-Canada">Francias - Canada</option>
+                      </select>
+                      <ion-icon class="ionicon" name="globe"></ion-icon>
+                    </div>
+      
+                    <!-- <h6 class="text">
+                      <ion-icon class="ionicon" name="globe"></ion-icon>LANGUAGE
+                    </h6> -->
+                    <div class="info">
+                      <p class="m-0 d-flex align-items-center">
+                        <a href="tel:+1 (855) 858-5214">
+                          <ion-icon name="call" class="me-2"></ion-icon> +1 (855) 858-5214
+                        </a>
+                      </p>
+                      <p class="m-0 d-flex align-items-center">
+                        <a href="mailto:abc@gmail.com">
+                          <ion-icon name="mail" class="me-3"></ion-icon>abc@gmail.com
+                        </a>
+                      </p>
+      
+                    </div>
+      
+                    <div class="">
+                      <button type="button" class="btn btn-secondary rounded-circle">
+                        <ion-icon name="person" class=""></ion-icon>
+                      </button>
+                      <button type="button" class="btn btn-primary  rounded-circle">
+                        <ion-icon name="git-pull-request"></ion-icon>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <nav class="navbar navbar-expand-lg">
+              <div class="container">
+                <a class="navbar-brand" href="#"><img class="" src="../webImages/logo.webp" alt="" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <div class="d-flex justify-content-between align-items-center w-100">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
+                      <span class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                          data-bs-toggle="dropdown" aria-expanded="false">
+                          PRODUCT
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <div class="d-flex">
+                            <div>
+                              <!-- <span><a class="dropdown-item text-origin" href="#">Products</a></span> -->
+                              <span>
+                                <p class="dropdown-item text-origin">Products</p>
+                              </span>
+                              <span><a class="dropdown-item" href="#">Alaya Care Cloud</a></span>
+                              <span><a class="dropdown-item" href="#">Alaya Care Connector</a></span>
+                              <span><a class="dropdown-item" href="#">Alaya Care Marketplace</a></span>
+                              <span><a class="dropdown-item" href="#">Procura Powered by AlayaCare</a></span>
+                              <span><a class="dropdown-item" href="#">Arrow powered by AlayaCare</a></span>
+                              <span><a class="dropdown-item" href="#">CIMS Powered by AlayaCare</a></span>
+                              <span><a class="dropdown-item" href="#">Arrow powered by AlayaCare</a></span>
+                              <span><a class="dropdown-item" href="#">Pricing</a></span>
+                              <span><a class="dropdown-item" href="#">Request a Demo</a></span>
+                            </div>
+                            <div>
+                              <span><a class="dropdown-item text-origin" href="#">Alaya Care Cloud</a></span>
+                              <span><a class="dropdown-item" href="#">Back Office Suite</a></span>
+                              <span><a class="dropdown-item" href="#">Clinical Suite</a></span>
+                              <span><a class="dropdown-item" href="#">Care Worker Mobile App</a></span>
+                              <span><a class="dropdown-item" href="#">Virtual Care Suite</a></span>
+                              <span><a class="dropdown-item" href="#">AlayaSphere</a></span>
+                              <span><a class="dropdown-item" href="#">Alaya Labs</a></span>
+                              <span><a class="dropdown-item" href="#">Electronic Visit Verification</a></span>
+                              <span><a class="dropdown-item" href="#">Security Resources</a></span>
+                            </div>
+                          </div>
+                        </div>
+                      </span>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                          data-bs-toggle="dropdown" aria-expanded="false">
+                          SOLUTION
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <div class="d-flex">
+                            <div>
+                              <span><a class="dropdown-item text-origin" href="#">By Service Line</a></span>
+                              <span><a class="dropdown-item" href="#">Personal Care</a></span>
+                              <span><a class="dropdown-item" href="#">Nursing</a></span>
+                              <span><a class="dropdown-item" href="#">Home and Specialty Infusion</a></span>
+                              <span><a class="dropdown-item" href="#">Pediatrics</a></span>
+                            </div>
+                            <div>
+                              <span><a class="dropdown-item text-origin" href="#">By Business Type</a></span>
+                              <span><a class="dropdown-item" href="#">Franchise</a></span>
+                              <span><a class="dropdown-item" href="#">Private Duty</a></span>
+                              <span><a class="dropdown-item" href="#">Medicaid</a></span>
+                              <span><a class="dropdown-item" href="#">OHT</a></span>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                          data-bs-toggle="dropdown" aria-expanded="false">
+                          SUPPORT AND SERVICES
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <div class="d-flex">
+                            <div>
+                              <span><a class="dropdown-item text-origin" href="#">Services</a></span>
+                              <span><a class="dropdown-item" href="#">Customer Success</a></span>
+                              <span><a class="dropdown-item" href="#">Services Catalog</a></span>
+                            </div>
+                            <div>
+                              <span><a class="dropdown-item text-origin" href="#">Support Resources</a></span>
+                              <span><a class="dropdown-item" href="#">Alaya Care Support Articles</a></span>
+                              <span><a class="dropdown-item" href="#">Contact Support</a></span>
+                              <span><a class="dropdown-item" href="#">AlayaCare Ideas</a></span>
+                              <span><a class="dropdown-item" href="#">Product Updates</a></span>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                          data-bs-toggle="dropdown" aria-expanded="false">
+                          ABOUT US
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <div class="d-flex">
+                            <div>
+                              <span><a class="dropdown-item text-origin" href="#">Resource Centre</a></span>
+                              <span><a class="dropdown-item" href="#">Blogs</a></span>
+                              <span><a class="dropdown-item" href="#">Videos</a></span>
+                              <span><a class="dropdown-item" href="#">Podcast</a></span>
+                              <span><a class="dropdown-item" href="#">Case Studies</a></span>
+                            </div>
+                            <div>
+                              <span><a class="dropdown-item text-origin" href="#">Events</a></span>
+                              <span><a class="dropdown-item" href="#">Webinars</a></span>
+                              <span><a class="dropdown-item" href="#">Upcoming Events</a></span>
+                              <span><a class="dropdown-item" href="#">Better Outcomes Conference</a></span>
+                              <span><a class="dropdown-item" href="#">Customer Advisory Board</a></span>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                          data-bs-toggle="dropdown" aria-expanded="false">
+                          RESOURCES
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <div class="d-flex">
+                            <div>
+                              <span><a class="dropdown-item text-origin" href="#">Overview</a></span>
+                              <span><a class="dropdown-item" href="#">About AlayaCare</a></span>
+                              <span><a class="dropdown-item" href="#">Our Teams</a></span>
+                              <span><a class="dropdown-item" href="#">Investors</a></span>
+                              <span><a class="dropdown-item" href="#">Careers & Cultures</a></span>
+                            </div>
+                            <div>
+                              <span><a class="dropdown-item text-origin" href="#">News</a></span>
+                              <span><a class="dropdown-item" href="#">In the Media</a></span>
+                              <span><a class="dropdown-item" href="#">AlayaCare News</a></span>
+                              <span><a class="dropdown-item" href="#">Industry News</a></span>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Contact Us</a>
+                      </li>
+                    </ul>
+                    <a href="" class="m-0 serach_anc"><ion-icon name="search" class="fs-3 ionicon"></ion-icon></a>
+                    <!-- <form class="d-flex" role="search">
+                      <input class="form-control me-2 d-none" type="search" placeholder="Search" aria-label="Search" />
+                      <button class="btn" type="submit"><ion-icon name="search"></ion-icon></button>
+                    </form> -->
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </header>
+
+        <div class="banner">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <!-- <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div> -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../webImages/banner/inner_banner1.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../webImages/banner/inner_banner1.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../webImages/banner/inner_banner1.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button> -->
+            </div>
+        </div>
+
+        <section class="section py-5 ">
+            <div class="container">
+                <div class="row team_heading">
+                    <div class="col-md-12">
+                        <div class="inner_heading text-center">
+                            <h2 class="fw-bold text-uppercase">Meet Our Executive Team</h2>
+                        </div>
+                        <div class="inner_txt">
+                            <p class="">We have a track record of understanding how technology can revolutionize an
+                                industry and we're bringing those benefits to our customers. We know how to build a
+                                great team, scale a SaaS business, build channels, and service enterprise customers.
+                                Most importantly, we are passionate about home healthcare and how great technology
+                                and a
+                                great team can provide better outcomes - for patients, providers and payers.</p>
+                        </div>
+                        <div class="inner_btnn">
+                            <a href="" class="btn px-4">JOIN OUR TEAM</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row team_main py-4">
+                    <div class="col-md-4">
+                        <div class="accordian">
+                            <div class="accordian__heading text-center">
+                                <div class="img">
+                                    <img src="../webImages/8.jpg" alt="">
+                                    <div class="img_info">
+                                        <p>Click to view bio</p>
+                                    </div>
+                                </div>
+                                <div class="aaccordian_txt mt-3">
+                                    <h5 class="fs-4 m-0">Adrian Schauer</h5>
+                                    <p class="m-0">Co-Founder & CEO</p>
+                                </div>
+                                <div class="accordian_icon d-flex justify-content-center align-items-center">
+                                    <i class="fa-solid fa-envelope me-1"></i>
+                                    <i class="fa-brands fa-linkedin ms-1"></i>
+                                </div>
+                            </div>
+                            <div class="accordian__body text-center">
+                                <p>A plot of land can only be purchased under the facility if a house into be
+                                    constructed on
+                                    the plot and financing is meant both for purchase of land and construction thereon
+                                    provided all other terms and conditions of the facility including maximum price of
+                                    house
+                                    and maximum loan under the relevant tier are complied with.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="accordian">
+                            <div class="accordian__heading text-center py-4">
+                                <div class="img">
+                                    <img src="../webImages/8.jpg" alt="">
+                                    <div class="img_info">
+                                        <p>Click to view bio</p>
+                                    </div>
+                                </div>
+                                <div class="aaccordian_txt mt-3">
+                                    <h5 class="fs-4 m-0">Adrian Schauer</h5>
+                                    <p class="m-0">Co-Founder & CEO</p>
+                                </div>
+                                <div class="accordian_icon d-flex justify-content-center align-items-center">
+                                    <i class="fa-solid fa-envelope me-1"></i>
+                                    <i class="fa-brands fa-linkedin ms-1"></i>
+                                </div>
+                            </div>
+                            <div class="accordian__body text-center">
+                                <p>A plot of land can only be purchased under the facility if a house into be
+                                    constructed on
+                                    the plot and financing is meant both for purchase of land and construction thereon
+                                    provided all other terms and conditions of the facility including maximum price of
+                                    house
+                                    and maximum loan under the relevant tier are complied with.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="accordian">
+                            <div class="accordian__heading text-center py-4">
+                                <div class="img">
+                                    <img src="../webImages/8.jpg" alt="">
+                                    <div class="img_info">
+                                        <p>Click to view bio</p>
+                                    </div>
+                                </div>
+                                <div class="aaccordian_txt mt-3">
+                                    <h5 class="fs-4 m-0">Adrian Schauer</h5>
+                                    <p class="m-0">Co-Founder & CEO</p>
+                                </div>
+                                <div class="accordian_icon d-flex justify-content-center align-items-center">
+                                    <i class="fa-solid fa-envelope me-1"></i>
+                                    <i class="fa-brands fa-linkedin ms-1"></i>
+                                </div>
+                            </div>
+                            <div class="accordian__body text-center">
+                                <p>A plot of land can only be purchased under the facility if a house into be
+                                    constructed on
+                                    the plot and financing is meant both for purchase of land and construction thereon
+                                    provided all other terms and conditions of the facility including maximum price of
+                                    house
+                                    and maximum loan under the relevant tier are complied with.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="accordian">
+                            <div class="accordian__heading text-center py-4">
+                                <div class="img">
+                                    <img src="../webImages/8.jpg" alt="">
+                                    <div class="img_info">
+                                        <p>Click to view bio</p>
+                                    </div>
+                                </div>
+                                <div class="aaccordian_txt mt-3">
+                                    <h5 class="fs-4 m-0">Adrian Schauer</h5>
+                                    <p class="m-0">Co-Founder & CEO</p>
+                                </div>
+                                <div class="accordian_icon d-flex justify-content-center align-items-center">
+                                    <i class="fa-solid fa-envelope me-1"></i>
+                                    <i class="fa-brands fa-linkedin ms-1"></i>
+                                </div>
+                            </div>
+                            <div class="accordian__body text-center">
+                                <p>A plot of land can only be purchased under the facility if a house into be
+                                    constructed on
+                                    the plot and financing is meant both for purchase of land and construction thereon
+                                    provided all other terms and conditions of the facility including maximum price of
+                                    house
+                                    and maximum loan under the relevant tier are complied with.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="accordian">
+                            <div class="accordian__heading text-center py-4">
+                                <div class="img">
+                                    <img src="../webImages/8.jpg" alt="">
+                                    <div class="img_info">
+                                        <p>Click to view bio</p>
+                                    </div>
+                                </div>
+                                <div class="aaccordian_txt mt-3">
+                                    <h5 class="fs-4 m-0">Adrian Schauer</h5>
+                                    <p class="m-0">Co-Founder & CEO</p>
+                                </div>
+                                <div class="accordian_icon d-flex justify-content-center align-items-center">
+                                    <i class="fa-solid fa-envelope me-1"></i>
+                                    <i class="fa-brands fa-linkedin ms-1"></i>
+                                </div>
+                            </div>
+                            <div class="accordian__body text-center">
+                                <p>A plot of land can only be purchased under the facility if a house into be
+                                    constructed on
+                                    the plot and financing is meant both for purchase of land and construction thereon
+                                    provided all other terms and conditions of the facility including maximum price of
+                                    house
+                                    and maximum loan under the relevant tier are complied with.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="accordian">
+                            <div class="accordian__heading text-center py-4">
+                                <div class="img">
+                                    <img src="../webImages/8.jpg" alt="">
+                                    <div class="img_info">
+                                        <p>Click to view bio</p>
+                                    </div>
+                                </div>
+                                <div class="aaccordian_txt mt-3">
+                                    <h5 class="fs-4 m-0">Adrian Schauer</h5>
+                                    <p class="m-0">Co-Founder & CEO</p>
+                                </div>
+                                <div class="accordian_icon d-flex justify-content-center align-items-center">
+                                    <i class="fa-solid fa-envelope me-1"></i>
+                                    <i class="fa-brands fa-linkedin ms-1"></i>
+                                </div>
+                            </div>
+                            <div class="accordian__body text-center">
+                                <p>A plot of land can only be purchased under the facility if a house into be
+                                    constructed on
+                                    the plot and financing is meant both for purchase of land and construction thereon
+                                    provided all other terms and conditions of the facility including maximum price of
+                                    house
+                                    and maximum loan under the relevant tier are complied with.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="accordian">
+                            <div class="accordian__heading text-center py-4">
+                                <div class="img">
+                                    <img src="../webImages/8.jpg" alt="">
+                                    <div class="img_info">
+                                        <p>Click to view bio</p>
+                                    </div>
+                                </div>
+                                <div class="aaccordian_txt mt-3">
+                                    <h5 class="fs-4 m-0">Adrian Schauer</h5>
+                                    <p class="m-0">Co-Founder & CEO</p>
+                                </div>
+                                <div class="accordian_icon d-flex justify-content-center align-items-center">
+                                    <i class="fa-solid fa-envelope me-1"></i>
+                                    <i class="fa-brands fa-linkedin ms-1"></i>
+                                </div>
+                            </div>
+                            <div class="accordian__body text-center">
+                                <p>A plot of land can only be purchased under the facility if a house into be
+                                    constructed on
+                                    the plot and financing is meant both for purchase of land and construction thereon
+                                    provided all other terms and conditions of the facility including maximum price of
+                                    house
+                                    and maximum loan under the relevant tier are complied with.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="accordian">
+                            <div class="accordian__heading text-center py-4">
+                                <div class="img">
+                                    <img src="../webImages/8.jpg" alt="">
+                                    <div class="img_info">
+                                        <p>Click to view bio</p>
+                                    </div>
+                                </div>
+                                <div class="aaccordian_txt mt-3">
+                                    <h5 class="fs-4 m-0">Adrian Schauer</h5>
+                                    <p class="m-0">Co-Founder & CEO</p>
+                                </div>
+                                <div class="accordian_icon d-flex justify-content-center align-items-center">
+                                    <i class="fa-solid fa-envelope me-1"></i>
+                                    <i class="fa-brands fa-linkedin ms-1"></i>
+                                </div>
+                            </div>
+                            <div class="accordian__body text-center">
+                                <p>A plot of land can only be purchased under the facility if a house into be
+                                    constructed on
+                                    the plot and financing is meant both for purchase of land and construction thereon
+                                    provided all other terms and conditions of the facility including maximum price of
+                                    house
+                                    and maximum loan under the relevant tier are complied with.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="accordian">
+                            <div class="accordian__heading text-center py-4">
+                                <div class="img">
+                                    <img src="../webImages/8.jpg" alt="">
+                                    <div class="img_info">
+                                        <p>Click to view bio</p>
+                                    </div>
+                                </div>
+                                <div class="aaccordian_txt mt-3">
+                                    <h5 class="fs-4 m-0">Adrian Schauer</h5>
+                                    <p class="m-0">Co-Founder & CEO</p>
+                                </div>
+                                <div class="accordian_icon d-flex justify-content-center align-items-center">
+                                    <i class="fa-solid fa-envelope me-1"></i>
+                                    <i class="fa-brands fa-linkedin ms-1"></i>
+                                </div>
+                            </div>
+                            <div class="accordian__body text-center">
+                                <p>A plot of land can only be purchased under the facility if a house into be
+                                    constructed on
+                                    the plot and financing is meant both for purchase of land and construction thereon
+                                    provided all other terms and conditions of the facility including maximum price of
+                                    house
+                                    and maximum loan under the relevant tier are complied with.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="accordian">
+                            <div class="accordian__heading text-center py-4">
+                                <div class="img">
+                                    <img src="../webImages/8.jpg" alt="">
+                                    <div class="img_info">
+                                        <p>Click to view bio</p>
+                                    </div>
+                                </div>
+                                <div class="aaccordian_txt mt-3">
+                                    <h5 class="fs-4 m-0">Adrian Schauer</h5>
+                                    <p class="m-0">Co-Founder & CEO</p>
+                                </div>
+                                <div class="accordian_icon d-flex justify-content-center align-items-center">
+                                    <i class="fa-solid fa-envelope me-1"></i>
+                                    <i class="fa-brands fa-linkedin ms-1"></i>
+                                </div>
+                            </div>
+                            <div class="accordian__body text-center">
+                                <p>A plot of land can only be purchased under the facility if a house into be
+                                    constructed on
+                                    the plot and financing is meant both for purchase of land and construction thereon
+                                    provided all other terms and conditions of the facility including maximum price of
+                                    house
+                                    and maximum loan under the relevant tier are complied with.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+
+        </section>
+
+
+        <section class="expert py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 text-center mt-4">
+                        <h2 class="mb-4">Speak to an Expert</h2>
+                        <p  class="my-4">See how our powerful home health care solution can help you increase your bottom line and
+                            improve client outcomes. </p>
+
+                        <div class="expert_btn">
+                            <a href="" class="btn px-4">Request a demo</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center mt-4">
+                        <h2 class="mb-4">Not Ready to Chat?</h2>
+                        <div class="expert_btn_transparent ">
+                            <a href="" class="btn px-5 my-2">WATCH VIDEOS</a> 
+                            <a href="" class="btn px-4 my-2">VIEW CLIENT STORIES</a> 
+                            <a href="" class="btn px-5 my-2">WHO WE HELP</a> 
+                        </div>
+                        <!-- <a class="btn expert_btn_transparent">WATCH VIDEOS</a>
+                        <a class="btn expert_btn_transparent">VIEW CLIENT STORIES</a>
+                        <a class="expert_btn_transparent">WHO WE HELP</a> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <footer class="footer pt-5">
+            <div class="footer_top pb-3">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="footer_logo">
+                      <img src="./webImages/logo.webp" alt="">
+                    </div>
+                    <div class="footer_txt">
+                      <p class="mt-1">AlayaCare’s unique platform offers a complete solution to manage the
+                        entire client
+                        lifecycle in a secure, integrated cloud-based system. AlayaCare is providing the
+                        platform for home and community care organizations to propel towards innovation and
+                        home
+                        care of the future. AlayaCare was founded in 2014.</p>
+                    </div>
+      
+                    <div class="icons mt-3">
+                      <ul class="list d-flex">
+                        <li class="list-items mx-1"><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li class="list-items mx-1"><a href=""><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li class="list-items mx-1"><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        <li class="list-items mx-1"><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li class="list-items mx-1"><a href=""><i class="fa-brands fa-youtube"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+      
+                    <!-- <div class="imgg">
+                      <img src="./webImages/5.webp" alt="">
+                    </div>
+                    <div class="imgg">
+                      <img src="./webImages/6.webp" alt="">
+                    </div>
+                    <div class="imgg">
+      
+                      <img src="./webImages/7.webp" alt="">
+                    </div> -->
+                  </div>
+      
+                  <div class="col-md-8">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36418.81821115537!2d151.19657047091394!3d-33.8555652975434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12afb9c137c105%3A0xb3d1c969da34e373!2sAlayaCare!5e0!3m2!1sen!2s!4v1654525560041!5m2!1sen!2s"
+                      width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+                  <!-- <div class="col-md-2">
+                    <h4>ABOUT US</h4>
+                    <ul class="list">
+                      <li class="list-item"><a href="">About AlayaCare</a></li>
+                      <li class="list-item"><a href="">Our Team</a></li>
+                      <li class="list-item"><a href="">AlayaCare News</a></li>
+                      <li class="list-item"><a href="">Investors</a></li>
+                      <li class="list-item"><a href="">Careers</a></li>
+      
+                      <h4>COMMUNITY</h4>
+                      <ul class="list">
+                        <li class="list-item"><a href="">Customer Stories</a></li>
+                        <li class="list-item"><a href="">Industry News</a></li>
+                        <li class="list-item"><a href="">AlayaCare News</a></li>
+                        <li class="list-item"><a href="">Gallery</a></li>
+                        <li class="list-item"><a href="">AlayaCare Support</a></li>
+      
+                      </ul>
+                  </div>
+                  <div class="col-md-3">
+                    <h4>HOW WE HELP</h4>
+                    <ul class="list">
+                      <li class="list-item"><a href="">The AlayaCare Platform</a></li>
+                      <li class="list-item"><a href="">Clinical Documentation</a></li>
+                      <li class="list-item"><a href="">Mobile App</a></li>
+                      <li class="list-item"><a href="">Back Office Suite</a></li>
+                      <li class="list-item"><a href="">Family Portal</a></li>
+                      <li class="list-item"><a href="">AlayaLabs</a></li>
+                      <li class="list-item"><a href="">Pediatric EMR Software</a></li>
+                      <li class="list-item"><a href="">Billing Software for Medicaid</a></li>
+                      <li class="list-item"><a href="">Personal Care Software</a></li>
+                      <li class="list-item"><a href="">Private Duty Software</a></li>
+                      <li class="list-item"><a href="">Home Infusion Software</a></li>
+                    </ul>
+                  </div>
+      
+      
+                  <div class="col-md-3">
+                    <h4>ALAYACARE TORONTO OFFICE</h4>
+                    <p>151 Yonge Street, Suite 1000
+                      Toronto, ON, Canada M5C 2W7</p>
+      
+                    <h4>ALAYACARE AUSTRALIA OFFICE</h4>
+                    <p>26 Alfred St.
+                      Milson’s Point, NSW Australia 2061</p>
+      
+                    <h4>ALAYACARE MONTREAL OFFICE</h4>
+      
+                    <p>800-4200 Boulevard Saint-Laurent
+                      Montreal, QC, Canada H2W 2R2</p>
+      
+      
+                    <div class="suport">
+                      <div class="btnn">
+                        <a href="" class="btn   suport-secondary">See all locations</a>
+                        <a href="" class="btn mt-4 suport-primary">Support</a>
+                      </div>
+                      <div class="icons mt-3">
+                        <ul class="list d-flex">
+                          <li class="list-items mx-1"><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                          <li class="list-items mx-1"><a href=""><i class="fa-brands fa-twitter"></i></a>
+                          </li>
+                          <li class="list-items mx-1"><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                          <li class="list-items mx-1"><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                          <li class="list-items mx-1"><a href=""><i class="fa-brands fa-youtube"></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+            <div class="footer_bottom py-3">
+              <div class="container">
+                <div class="row">
+                  <div class="row">
+                    <div class="col-md-12 text-center">
+                      <p class="text-light fs-5">Better Technology, Better Outcomes.</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12 text-center">
+                      <p class="text-light">© 2022 AlayaCare. All Rights Reserved | <a href="" class="text-light">Legal &
+                          Contracts</a> | <a href="" class="text-light">Security & Privacy</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+
+
+    </main>
+
+
+
+    <!-- Bootstrap Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Typer Link -->
+    <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+
+    <!-- AOS Link -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 120,
+            delay: 0,
+            duration: 400,
+        });
+    </script>
+    
+<!-- Ionicons Link -->
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+    <!-- Css Link -->
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
